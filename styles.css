@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa&family=Emilys+Candy&family=Homemade+Apple&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  h1 {
+    font-family: 'Emilys Candy', cursive;
+    letter-spacing: .2rem;
+    text-align: center;
+    background: #F2C1D1 /*#AA98A9*/;
+    padding: 15px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+  .hearts {
+    cursor: grab;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+  }
+
+  img {
+    height: 427px;
+  }
+  .gallery-img {
+    display: none;
+    max-height: 600px;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .image-gallery {
+    padding: 15px;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    background-color: #F64A8A;
+    /*background-color: #0074d9;*/
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    margin-right: 15px;
+  }
+  
+  .btn:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+  }
+
+  a, .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
+  .footer {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    justify-content: center;
+    flex: auto;
+    background-color: #AA98A9;
+    padding: 15px;
+}
+
+  .fem_link {
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .fem_link:hover{
+    color: #7C0902;
+    font-weight: bold;
+  }
+
+  .fa {
+    font-size: 20px;
+  }
+
+  .fa:hover {
+    color: #000000;
+  }
